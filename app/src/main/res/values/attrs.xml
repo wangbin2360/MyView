@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleView">
+        <attr name="circle_color" format="color">
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="CustomTitleView">
+        <attr name="title_text" format="string"></attr>
+        <attr name="title_text_color" format="color"></attr>
+        <attr name="title_text_size" format="dimension"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="CustomVolumnView">
+        <attr name="volumn_first_color" format="color"></attr>
+        <attr name="volumn_second_color" format="color"></attr>
+        <attr name="volumn_circle_width" format="dimension"></attr>
+        <attr name="volumn_dot_count" format="integer"></attr>
+        <attr name="volumn_split_size" format="integer"></attr>
+        <attr name="volumn_bg" format="reference"></attr>
+    </declare-styleable>
+</resources>
